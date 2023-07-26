@@ -16,7 +16,7 @@ https://github.com/matthewzmija/React-Portfolio
 
 ## URL of deployed application
 
-https
+https://matthewzmija.github.io/React-Portfolio/
 
 ## Reference with starter code and mockup
 
