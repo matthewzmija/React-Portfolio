@@ -1,39 +1,43 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import Project from "../Project";
 
 function Portfolio() {
-
-  // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
-      name: 'surf-report',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: "movie-dashboard",
+      description: "HTML/CSS/JS",
+      link: "https://timebytes.github.io/Movie-Dashboard/",
+      repo: "https://github.com/TimeBytes/Movie-Dashboard",
     },
     {
-      name: 'pastel-puzzels',
-      description: 'MERN Stack',
+      name: "movie-review",
+      description: "Node.js/Javascript",
       link: "https://github.com",
-      repo: "https://github.com"
+      repo: "https://github.com",
     },
     {
-      name: 'run-buddy',
-      description: 'HTML/CSS',
+      name: "code-refactor",
+      description: "HTML/CSS",
       link: "https://github.com",
-      repo: "https://github.com"
+      repo: "https://github.com",
     },
     {
-      name: 'led-wall',
-      description: 'Node/IoT',
+      name: "text-editor",
+      description: "PWA/IndexedDB/Service Workers",
       link: "https://github.com",
-      repo: "https://github.com"
+      repo: "https://github.com",
     },
     {
-      name: 'calculator',
-      description: 'React/JavaScript/CSS',
+      name: "password-generator",
+      description: "HTML/CSS/JavaScript",
       link: "https://github.com",
-      repo: "https://github.com"
+      repo: "https://github.com",
+    },
+    {
+      name: "timed-quiz",
+      description: "HTML/CSS/JavaScript",
+      link: "https://matthewzmija.github.io/TimedQuiz/",
+      repo: "https://github.com/matthewzmija/TimedQuiz",
     },
   ]);
 
@@ -41,14 +45,11 @@ function Portfolio() {
     <div>
       <div className="flex-row">
         {projects.map((project, idx) => (
-          <Project
-            project={project}
-            key={"project" + idx}
-          />
+          <Project project={project} key={"project" + idx} />
         ))}
       </div>
     </div>
   );
-};
+}
 
 export default Portfolio;

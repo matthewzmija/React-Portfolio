@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
 
 function Resume() {
   return (
     <section className="my-5">
       <div className="my-2">
-      <p>
-        Download my <a href="https://www.linkedin.com/">resume</a>
+        <p>
+          View my <a href="https://www.linkedin.com/in/matthewzmija/">resume</a>{" "}
+          on Linkedin!
         </p>
         <h3>Front-end Proficiencies</h3>
         <ul className="skills">

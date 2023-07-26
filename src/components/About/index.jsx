@@ -1,12 +1,16 @@
 import React from "react";
-import avatar from "../../assets/small/portraits/3.jpg";
+import avatar from "../../assets/small/portraits/Avatar.JPG";
 
 function About() {
   return (
     <section className="my-5">
       <div className="my-2">
         <div className="profile-img my-5">
-          <img src={avatar} alt="avatar"></img>
+          <img
+            src={avatar}
+            alt="avatar"
+            style={{ width: "140px", height: "140px" }}
+          ></img>
         </div>
         <p>
           Hello everyone, I'm Matthew Zmija! I am currently employed as an
