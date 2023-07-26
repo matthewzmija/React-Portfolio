@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.fc497156.css",
+    "main.js": "/React-Portfolio/static/js/main.2f45926a.js",
+    "static/media/cover-image.jpg": "/React-Portfolio/static/media/cover-image.3f4b8a47f17655a4ac17.jpg",
+    "static/media/code-refactor.jpg": "/React-Portfolio/static/media/code-refactor.39e151902a50cd58889b.jpg",
+    "static/media/movie-dashboard.jpg": "/React-Portfolio/static/media/movie-dashboard.b8f0d9e110b2cbc2df6e.jpg",
+    "static/media/Avatar.JPG": "/React-Portfolio/static/media/Avatar.a846b4f9951b34046b1e.JPG",
+    "static/media/password-generator.jpg": "/React-Portfolio/static/media/password-generator.dcf263a5cd0a41a9245a.jpg",
+    "static/media/timed-quiz.jpg": "/React-Portfolio/static/media/timed-quiz.2853a0e2f3d10770b45b.jpg",
+    "static/media/movie-review.jpg": "/React-Portfolio/static/media/movie-review.7ff2792517be9682cf4e.jpg",
+    "static/media/text-editor.jpg": "/React-Portfolio/static/media/text-editor.1af85313e12377b2488b.jpg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.fc497156.css.map": "/React-Portfolio/static/css/main.fc497156.css.map",
+    "main.2f45926a.js.map": "/React-Portfolio/static/js/main.2f45926a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc497156.css",
+    "static/js/main.2f45926a.js"
+  ]
+}
